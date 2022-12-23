@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+}
+
+.encabezado {
+    /* Regla de estilo que se aplicara a los elementos que tengan la clase encabezado */
+    margin: 0 auto;
+    /* Margen Exterior */
+    background-color: rgb(182, 186, 247);
+    padding: 10px;
+    /* Margen Interior */
+    text-align: right;
+    /* Alineacion del texto */
+    border: 3px solid white;
+    /* Propiedades del borde : grosor, tipo, color */
+}
+
+.menu h1 {
+    /* Regla de estilo que se aplicara a los elementos que estan dentro del elmento que tiene la clase menu */
+    color: white;
+    text-align: center;
+}
+
+.enlaces {
+    /* Flexbox */
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+
+
+/* .enlaces li {
+    list-style: none;
+}*/
+
+.menuItem {
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menuItem a div {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+/* Psudoclases : hover> cuando el cursor esta encima */
+
+.menuItem a div:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(218, 215, 215);
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px black;
+}
+
+.contenido {
+    margin-top: 15px;
+    /* borde de el elemento: grosor tipo color */
+    border: 1px solid black;
+    /* curvatura del cada esquina : ESI ESD EID EII | uno para todos */
+    /* border-radius: 50px 30px 15px 5px; */
+    border-radius: 25px;
+    /* Color de fondo*/
+    /* background-color: antiquewhite;*/
+    /* Ancho */
+    width: 90%;
+    /* Alto */
+    height: 520px;
+    /* Margen exterior  */
+    margin-left: 4%;
+    /* margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5%; */
+    /* Margen interior */
+    color: blue;
+    /* Fondo con degradado de colores */
+    /*background: linear-gradient(-15deg, #FFFFFF, #581edf, #ade90a, #ABC000);*/
+    /* background: linear-gradient(to left, #000000, #FFFFFF, #999999); */
+    background: linear-gradient(to top, transparent, #666666, #ade90a, #ABC000);
+    background: linear-gradient(to top,#ad1a1a, #e7a10b, #e68d18);
+    box-shadow: 5px 5px 15px rgb(41, 152, 167);
+    padding: 0.5%;
+}
+.correoa {
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    font-size: 10px;
+    margin-top: 4px;
+}
+.asunto {
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    font-size: 10px;
+    margin-top: 4px;
+}
+.nombre {
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    font-size: 10px;
+}   
+.correoa:hover {
+    border: 2px solid rgb(227, 245, 69);
+    border-radius: 5px;
+    padding-left: 125px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    font-size: 10px;
+    margin-top: 4px;
+}
+.asunto:hover {
+    border: 2px solid rgb(227, 245, 69);
+    border-radius: 5px;
+    padding-left: 125px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    font-size: 10px;
+    margin-top: 4px
+}
+.nombre:hover {
+    border: 2px solid rgb(227, 245, 69);
+    border-radius: 5px;
+    padding-left: 125px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    font-size: 10px;
+}   
+.pepe{
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
