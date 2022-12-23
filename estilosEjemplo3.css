@@ -1,0 +1,199 @@
+
+
+* {
+    margin: 0;
+}
+
+.encabezado {
+    /* Regla de estilo que se aplicara a los elementos que tengan la clase encabezado */
+    margin: 0 auto;
+    /* Margen Exterior */
+    background-color: rgb(198, 233, 141);
+    padding: 10px;
+    /* Margen Interior */
+    text-align: right;
+    /* Alineacion del texto */
+    border: 3px solid white;
+    /* Propiedades del borde : grosor, tipo, color */
+}
+
+.menu h1 {
+    /* Regla de estilo que se aplicara a los elementos que estan dentro del elmento que tiene la clase menu */
+    color: rgb(19, 18, 18);
+    text-align: center;
+    font-size: 80px;
+}
+
+.enlaces {
+    /* Flexbox */
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+
+
+/* .enlaces li {
+    list-style: none;
+}*/
+
+.menuItem {
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(-15deg, #FFFFFF, #581edf, #ade90a, #ABC000);
+    background: linear-gradient(to left, #a2d2ee, #FFFFFF, #999999); 
+    background: linear-gradient(to top, transparent, #666666, #ade90a, #ABC000);
+}
+
+.menuItem a div {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: antiquewhite; 
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(97, 161, 204);
+}
+
+
+/* Psudoclases : hover> cuando el cursor esta encima */
+
+.menuItem a div:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(218, 215, 215);
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px rgb(32, 84, 119);
+}
+
+.contenido {
+    margin-top: 15px;
+    /* borde de el elemento: grosor tipo color */
+    border: 1px solid rgb(116, 171, 207);
+    /* curvatura del cada esquina : ESI ESD EID EII | uno para todos */
+    /* border-radius: 50px 30px 15px 5px; */    
+    border-radius: 25px;
+    /* Color de fondo*/
+    /* background-color: antiquewhite;*/
+    /* Ancho */
+    width: 90%;
+    /* Alto */
+    height: 520px;
+    /* Margen exterior  */
+    margin-left: 4%;
+    /* margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5%; */
+    /* Margen interior */
+    color: blue;
+    /* Fondo con degradado de colores */
+    background: linear-gradient(to top,#ad1a1a, #e7a10b, #e68d18);
+    box-shadow: 5px 5px 15px rgb(41, 152, 167);
+    padding: 0.5%;
+
+}
+.boton{
+    border: 0.5px solid blue;
+    background-color: rgb(156, 206, 110);
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;   
+}
+.boton:hover{
+    border: 4px solid rgb(255, 255, 255);;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.subir{
+    border: 0.5px solid blue;
+    background-color: rgb(156, 206, 110);
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;   
+}
+.subir:hover{
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.limpiar{
+    border: 0.5px solid blue;
+    background-color: rgb(178, 230, 163);
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;    
+}
+.limpiar:hover{
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.inombre {
+    border: 0.5px solid blue;
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+.asunto{
+    border: 0.5px solid blue;
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+.archivo{
+    border: 0.5px solid blue;
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+
+.inombre:hover {
+    border: 4px solid rgb(227, 245, 69);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.asunto:hover {
+    border: 4px solid rgb(227, 245, 69);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
